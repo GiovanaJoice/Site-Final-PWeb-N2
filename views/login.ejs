@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+    <h1>Login</h1>
+    
+    <div class="login">
+        <form method="post">
+        <label for="email">Email:</label>
+        <div class="input">
+            <i class="far fa-envelope"></i>
+            <input id="email" name="email" placeholder="Email" type="text">
+        </div>
+    
+        <label for="senha">Senha:</label>
+        <div class="input">
+            <i class="fas fa-lock"></i>
+            <input id="senha" name="password" placeholder="Password" type="password">
+        </div>
+    
+        <div id="btn">
+            <button type="submit">Logar</button>
+            <h5>Não tem login?</h5><a href="/register">Cadastrar-se</a>
+        </div>
+        </form>
+        
+    </div>
+<%- include('partials/footer.ejs') %>

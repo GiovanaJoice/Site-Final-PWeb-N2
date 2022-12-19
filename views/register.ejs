@@ -1,0 +1,32 @@
+<%- include('partials/header.ejs') %>
+
+<h1>Faça seu cadastro</h1>
+
+    <div class="registro">
+        <form method="post">
+        
+        <label for="username">Nome de usuário</label>
+        <div class="input">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <input id="username" name="username" placeholder="Username" type="text">
+        </div>
+
+        <label for="email">Email</label>
+        <div class="input">
+            <i class="far fa-envelope"></i>
+            <input id="email" name="email" placeholder="Email" type="text">
+        </div>
+
+        <label for="senha">Senha</label>
+        <div class="input">
+            <i class="fas fa-lock"></i>
+            <input id="senha" name="password" placeholder="Password" type="password">
+        </div>
+
+        <div id="btn">
+            <button class="botaoDosRL" type="submit">Cadastrar</button>
+            <h5>Já tem um login?</h5><a href="/login">Logar</a>
+        </div>
+    </div>
+    
+<%- include('partials/footer.ejs') %>

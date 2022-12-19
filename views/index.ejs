@@ -1,0 +1,72 @@
+<%- include('partials/header.ejs') %>
+
+  <div class="divMain">
+
+    <div id="" class = "container">
+        <div class = "meal-wrapper">
+            <div class = "meal-search">
+                <h2 class = "title">Encontre Receitas Para Suas Refeições</h2>
+                <blockquote>Comida de verdade não tem ingredientes, comida de verdade são ingredientes.<br>
+                <cite>- Jamie Oliver</cite>
+                </blockquote>
+            </div>
+
+            <div>
+                <input class="form-control me-2" id="pesquisa" onkeypress="pesquisar()" type="search" placeholder="Receita..." aria-label="Search">
+                <a href="/resultados">
+                    <button type="button" class="btn btn-secondary">Procurar</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="popular" id="popular">
+
+        <h1 class="heading"> Receitas <span>mais</span> populares </h1>
+    
+        <ul id="menu">
+            <div class="box-container">
+        
+                <div class="box">
+                    <span class="price"> 1h - 2h </span>
+                    <img src="images/bifeDePanelaDePressão.jpg" alt="">
+                    <h3>Bife De Panela De Pressão</h3>
+                    <a href="https://www.tudogostoso.com.br/receita/10230-bife-de-panela-de-pressao.html" class="btnPopular">Ver receita</a>
+                </div>
+                <div class="box">
+                    <span class="price"> 2h - 3h </span>
+                    <img src="images/chocolateQuente.webp" alt="">
+                    <h3>Chocolate Quente</h3>
+                    <a href="https://www.tudogostoso.com.br/receita/33-chocolate-quente-especial.html" class="btnPopular">Ver receita</a>
+                </div>
+                <div class="box">
+                    <span class="price"> 20min - 30min </span>
+                    <img src="images/mousseDeLimão.jpg" alt="">
+                    <h3>Mousse De Limão</h3>
+                    <a href="https://www.tudogostoso.com.br/receita/1621-mousse-de-limao.html" class="btnPopular">Ver receita</a>
+                </div>
+                <div class="box">
+                    <span class="price"> 1h - 2h </span>
+                    <img src="images/torta-integral-de-legumes.webp" alt="">
+                    <h3>Torta Integral De Legumes</h3>
+                    <a href="https://www.receitasnestle.com.br/receitas/torta-integral-de-legumes-de-liquidificador" class="btnPopular">Ver receita</a>
+                </div>
+                <div class="box">
+                    <span class="price"> 10min - 30min </span>
+                    <img src="images/macarrãoComRequeijão.webp" alt="">
+                    <h3>Macarrão Com Requeijão</h3>
+                    <a href="https://receitas.globo.com/macarrao-com-requeijao-5134a1834d3885154000003f.ghtml" class="btnPopular">Ver receita</a>
+                </div>
+                <div class="box">
+                    <span class="price"> 1h - 2h </span>
+                    <img src="images/fricassêDeFrango.webp" alt="">
+                    <h3>Fricassê De Frango</h3>
+                    <a href="https://www.tudogostoso.com.br/receita/10254-fricasse-de-frango.html" class="btnPopular">Ver receita</a>
+                </div>
+            </div>
+        </ul>
+    </section>
+  </div>
+
+<%- include('partials/footer.ejs') %>
