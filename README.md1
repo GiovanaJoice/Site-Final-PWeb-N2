@@ -1,2 +1,4 @@
 # Site-Final-PWeb-N2
  Site com sistema de registo e login implementado, uso de ejs e bootstrap.
+Dar npm start
+No navegador, usar http://localhost:3000
